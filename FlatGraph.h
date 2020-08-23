@@ -1,6 +1,7 @@
 #include<iostream>
 #include"path.h"
 #include<fstream>
+#include<string>
 #include<queue>
 #include<unordered_map>
 
