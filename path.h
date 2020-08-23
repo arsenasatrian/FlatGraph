@@ -3,9 +3,9 @@
 #pragma once
 
 struct path {
-	std::shared_ptr<vertex>         start;
-	std::shared_ptr<vertex>         end;
-	int                        length;
+	std::shared_ptr<vertex>              start;
+	std::shared_ptr<vertex>              end;
+	int                                  length;
 	std::vector<std::shared_ptr<vertex>> way;
 	path()
 		: start (nullptr)
